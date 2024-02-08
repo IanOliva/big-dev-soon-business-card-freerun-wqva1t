@@ -1,8 +1,16 @@
+@font-face {
+  font-family: Poppins;
+  src: url(assets/fonts/Poppins-Regular.ttf);
+  
+}
+
 html,
 body {
   height: 100%;
   margin: 0;
   background-color: aquamarine;
+  font-family: 'Poppins';
+  font-size: large;
 }
 
 .container {
@@ -35,8 +43,6 @@ body {
 
 .contact {
   color: white;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   padding-left: 10%;
 }
 
@@ -47,10 +53,8 @@ body {
 
 .social {
   color: white;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-    padding-left: 10%;
-    margin-bottom: 15%;
+  padding-left: 10%;
+  margin-bottom: 15%;
     
 }
 
@@ -71,25 +75,25 @@ body {
   top: 50%;
   left: 40%;
   transform: translate(-50%, -50%);
-
+  max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+  max-height: 100%
 }
 
-/* This is an example CSS file, feel free to remove/edit it anytime */
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 10px;
-  text-align: center;
+.rightpart{
+  position: absolute; 
+  top: 5%; 
+  right: 15%;
+  
 }
 
-.footer a {
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
+.rightpart h1{
+  color: green;
+  font-size: 40px;
+  
 }
 
-.footer span {
-  font-size: 14px;
+.rightpart span{
+  color: black;
 }
+
+
