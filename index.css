@@ -60,7 +60,7 @@ body {
 .contact {
   color: white;
   padding-left: 10%;
-  font-size: larger;
+  font-size:medium;
 }
 
 .divider {
@@ -72,7 +72,7 @@ body {
   color: white;
   padding-left: 10%;
   margin-bottom: 15%;
-  font-size: larger;
+  font-size: medium;
     
 }
 
@@ -94,9 +94,9 @@ body {
 .userphoto-container{
   position: absolute;
   top: 40px;
-  left: 360px;
-  height: 650px;
-  width: 500px;
+  left: 250px;
+  height: 475px;
+  width: 350px;
   z-index: 4;
 }
 
@@ -104,8 +104,9 @@ body {
 .rightpart{
   position: absolute; 
   top: 10%; 
-  right: 15%;
+  right: 10%;
   
+  font-size: medium;
 }
 
 .rightpart h1{
@@ -121,22 +122,23 @@ body {
 
 .rightpart h2{
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Shapes */
 .square {
   position: absolute;
-  left: 325px;
+  left: 225px;
   top: 100px;
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   background-color: lightgray;
   z-index: 5;
 }
 
 .rectangle {
   position: absolute;
-  left: 840px;
+  left: 575px;
   top: 60px;
   height: 30px;
   width: 70px;
@@ -146,10 +148,10 @@ body {
 
 .square-two {
   position: absolute;
-  left: 415px;
-  top: 650px;
-  height: 70px;
-  width: 70px;
+  left: 310px;
+  top: 490px;
+  height: 50px;
+  width: 50px;
   background-color: lightgray;
   z-index: 5;
 }
@@ -157,8 +159,8 @@ body {
 .circle {
   position: absolute;
   background-color: #12b600;
-  left: 825px;
-  top: 650px;
+  left: 560px;
+  top: 475px;
   height: 70px;
   width: 70px;
   border-radius: 50px;
